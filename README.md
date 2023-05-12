@@ -6,9 +6,9 @@
 听说可以通过自动点击来减少掉线频率，这时候可以利用javascript的语法，类似与不间断的点击得到以下代码
 在Google colab的按F12，点击网页的控制台，粘贴如下代码：
 ```JS
-function ConnectButton(){
-  console.log("Connect pushed");
-  document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click()
+function ClickConnect(){
+  console.log("Working");
+  document.querySelector("colab-toolbar-button#connect").click();
 }
-setInterval(ConnectButton,60000);
+setInterval(ClickConnect,60000)
 ```
