@@ -1,0 +1,6 @@
+[submodule "sdxl-colab"]
+	path = sdxl-colab
+	url = https://github.com/camenduru/sdxl-colab
+[submodule "Fooocus-colab"]
+	path = Fooocus-colab
+	url = https://github.com/camenduru/Fooocus-colab
